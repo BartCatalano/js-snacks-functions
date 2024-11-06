@@ -5,15 +5,20 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 function primaLettera (array){
-    let newarray= array.map(element => element.charAt(0));
-    return newarray;
+    const newArrayIniziali = [];
+    for (let i = 0; i < array.length; i++) {
+        const parola = array[i];
+        newArrayIniziali.push(parola.charAt(0));
+}
+return newArrayIniziali;
+    
 }
 
 
-console.log (primaLettera(names));
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(primaLettera(names));
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
