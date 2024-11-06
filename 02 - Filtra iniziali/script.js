@@ -16,7 +16,7 @@ function selzioneIniziale (array,lettera){
         const elemantoCorrente = array[i];
         const iniziale = elemantoCorrente.charAt(0);
         if (iniziale === lettera) {
-            arraySelLettera.push(iniziale);
+            arraySelLettera.push(elemantoCorrente);
         }
 }
 return arraySelLettera;
@@ -29,6 +29,6 @@ return arraySelLettera;
 
 // Invoca la funzione qui e stampa il risultato in console
 
-console.log(selzioneIniziale(names, A));
+console.log(selzioneIniziale(names, "A"));
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
