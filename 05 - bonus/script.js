@@ -9,7 +9,13 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
+function hello (nome){
+    const saluto = "";
+    if(date){
 
+    }
+    return saluto;
+} 
 
 // Invoca la funzione qui e stampa il risultato in console
 

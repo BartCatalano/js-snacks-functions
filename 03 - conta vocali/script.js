@@ -7,7 +7,7 @@ const word = 'javascript';
 /**
  * Description
  * @param {string} stringa
- * @returns {number}
+ * @returns {number, string}
  */
 function vocali(stringa){
     const vocali= `aeiou`;
